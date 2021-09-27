@@ -10,7 +10,12 @@ window.onscroll = function() {
   prevScrollpos = currentScrollPos;
 }
 window.onload = function(){
-  hidenav();
+  var nav=window.innerWidth;
+  if(nav<768)
+  {
+    hidenav();
+  }
+
 }
 const showpop = (n) => {
   document.getElementById(n).style.display="flex";

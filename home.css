@@ -6,6 +6,7 @@ body{
     width: 100%;
     background-image: radial-gradient(#E9F2F3 100%, #DEEBEC 100%);
     margin: 0px;
+    overflow-x: hidden;
 }
 a{
     text-decoration: none;
