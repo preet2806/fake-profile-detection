@@ -3,7 +3,7 @@ html {
     scroll-behavior: smooth;
  }
 body{
-    width: 100%;
+    width: 100vw;
     background-image: radial-gradient(#E9F2F3 100%, #DEEBEC 100%);
     margin: 0px;
     overflow-x: hidden;
