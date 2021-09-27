@@ -74,7 +74,7 @@ a{
 }
 #home{
     margin-top: 100px;
-    height: 100vh;
+    height: 80vh;
     padding-left: 50px;
 }
 h1{
@@ -140,7 +140,6 @@ p{
     z-index: -1;
 }
 #verify{
-    width: max-content;
     z-index: 1;
     background-color: #FFFFFF;
     width: 100%;
@@ -183,7 +182,7 @@ input::placeholder{
     font-size: 24px;
     color: #2B303A;
     padding: 10px;
-
+    line-height: normal;
 }
 button[type="submit"]{
     width: 203px;
@@ -473,7 +472,7 @@ footer{
         height: 45px;
     }
     input::placeholder{
-        font-size: 18px;
+        font-size: 14px;
     }
     button[type="submit"]{
         width: 18vw;
