@@ -9,6 +9,9 @@ window.onscroll = function() {
   }
   prevScrollpos = currentScrollPos;
 }
+window.onload = function(){
+  hidenav();
+}
 const showpop = (n) => {
   document.getElementById(n).style.display="flex";
 }
@@ -17,7 +20,9 @@ const hidepop = (n) => {
 }
 const shownav = () => {
   document.getElementById("rightnav").style.display="flex";
+  document.getElementById("closemenu").style.display="flex";
 }
 const hidenav = () => {
   document.getElementById("rightnav").style.display="none";
+  document.getElementById("closemenu").style.display="none";
 }
