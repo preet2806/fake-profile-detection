@@ -140,7 +140,7 @@ p{
     height: 96vh;
     width: auto;
     right: 50px;
-    top: 90px;
+    top: 0px;
     z-index: -1;
 }
 #verify{
