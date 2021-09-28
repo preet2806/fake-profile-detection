@@ -78,6 +78,8 @@ a{
     margin-top: 100px;
     height: 100vh;
     padding-left: 50px;
+    position: relative;
+    overflow: hidden;
 }
 h1{
     font-family: Nunito;
