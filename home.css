@@ -176,6 +176,12 @@ input{
     background: #FFFFFF;
     border-radius: 10px 0px 0px 10px;
     border: none;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    color: #2B303A;
+    line-height: normal;
 }
 input::placeholder{
     font-family: Nunito;
@@ -450,7 +456,7 @@ footer{
         line-height: normal;
     }
     #home{
-        height: 80vh;
+        height: 77vh;
         margin-top: 80px;
         padding-left: 30px;
     }
@@ -484,6 +490,8 @@ footer{
     input{
         width: 62vw;
         height: 45px;
+        font-size: 14px;
+        padding: 0px;
     }
     input::placeholder{
         font-size: 14px;
